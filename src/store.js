@@ -23,6 +23,8 @@ const account = ((state={account:temp,valid:false},action)=>{
                         return state;
                     }
                 }
+                state.valid=true;
+                return state;
             }
     }
 }
